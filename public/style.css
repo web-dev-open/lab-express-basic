@@ -1,0 +1,68 @@
+body {
+    background-color: green;
+    background-image:url("https://cutewallpaper.org/21/the-rock-bull-logo/22-Drawn-Bulls-the-rock-bull-tattoo-design-Free-Clip-Art-.jpg") ;
+    background-size: cover;
+}
+header {
+    background-image: url("https://fanfest.com/wp-content/uploads/2022/08/Screen-Shot-2022-08-11-at-5.45.11-AM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    height: 700px;
+    font-size: 300px;
+    margin: 0 20% 0 20%;
+    color: darkred;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+button {
+    
+    /* position:relative;
+    left:20%;
+    right:20%;
+    bottom:5%;
+    top:60%; */
+    border-radius: 20px;
+    background-color: black;
+    color: yellow;
+    width: 200px;
+    height: 50px;
+    
+}
+
+.buttonTwo {
+    
+    position:relative;
+    left:20%;
+    right:20%;
+    bottom:15%;
+    top:50%;
+    border-radius: 20px;
+    background-color: black;
+    color: yellow;
+    width: 200px;
+    height: 50px;
+    
+}
+
+p {
+    color: #008800;
+    margin: 15% 25%;
+}
+
+/* .rock {
+    margin-bottom: 10%;
+} */
+
+.divOne {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20%;
+}

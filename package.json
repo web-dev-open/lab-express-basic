@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "name": "lab-express-basic",
+  "description": "![Root logo](https://imgur.com/Hq8xgzy.png)",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeviMilli/lab-express-basic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeviMilli/lab-express-basic/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/LeviMilli/lab-express-basic#readme"
+}
