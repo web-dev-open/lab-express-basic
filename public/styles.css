@@ -1,0 +1,36 @@
+.cont{
+    width: 60%;
+    padding: 40px;
+    margin: 50px;
+}
+
+img{
+    width: 300px;
+}
+.card{
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 40px;
+    max-width: 100%;
+    
+}
+.decor{
+    max-width: 330px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
