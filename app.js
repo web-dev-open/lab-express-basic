@@ -7,7 +7,7 @@ app.get('/', (req , res) => {
     res.send(`<html>
         <head>
           <meta charset="utf-8">
-          <title>Cat</title>
+          <title>Bae Suzy</title>
           <link rel="stylesheet" href="/stylesheet/style.css" />
         </head>
         <body>
@@ -35,7 +35,7 @@ app.post('/about' ,(req , res) =>{
       res.send(`<html>
       <head>
         <meta charset="utf-8">
-        <title>Cat</title>
+        <title>About</title>
         <link rel="stylesheet" href="/stylesheet/style.css" />
       </head>
       <body>
@@ -49,7 +49,7 @@ app.post('/about' ,(req , res) =>{
 app.post('/works' ,(req,res)=>{
     res.send(`<head>
     <meta charset="utf-8">
-    <title>Cat</title>
+    <title>Works</title>
     <link rel="stylesheet" href="/stylesheet/style.css" />
   </head>
   <body>
@@ -83,7 +83,7 @@ app.post('/works' ,(req,res)=>{
 app.post('/gallery' , (req,res)=>{
     res.send(`<head>
     <meta charset="utf-8">
-    <title>Cat</title>
+    <title>Gallery</title>
     <link rel="stylesheet" href="/stylesheet/style.css" />
   </head>
   <body>
