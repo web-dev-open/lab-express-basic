@@ -1,5 +1,12 @@
 <img src="https://imgur.com/XOS1Vdh.png"  width="150px" height="150px">
   
+# To run the Express Website
+
+```bash
+
+npm start
+
+```
 
 # Express basic website
 
