@@ -50,25 +50,25 @@ body {
  /* Home Page Styles */
 body.home1 {
     background: url('/images/back1.jpg') ;
-    color: #000000; /* Add a text color that contrasts with the background image */
+    color: #000000; 
   }
   
   /* About Page Styles */
   body.about1 {
     background: url('/images/back1.jpg') ;
-    color: #333; /* Adjust text color for readability */
+    color: #333; 
   }
   
   /* Works Page Styles */
   body.works1 {
     background: url('/images/back1.jpg') ;
-    color: #333; /* Adjust text color for readability */
+    color: #333; 
   }
   
   /* Gallery Page Styles */
   body.gallery1 {
     background: url('/images/back1.jpg') ;
-    color: #333; /* Adjust text color for readability */
+    color: #333; 
   }
 
   body.works {
