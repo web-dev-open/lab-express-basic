@@ -1,5 +1,27 @@
 <img src="https://imgur.com/XOS1Vdh.png"  width="150px" height="150px">
   
+# To run the Express Website
+
+```bash
+
+npm start
+
+```
+
+![Screenshot 2023-12-15 170919](https://github.com/Devil-2621/lab-express-basic/assets/119029321/4a49df7f-133d-43cb-814f-61e2c97ad826)
+<hr>
+
+![Screenshot 2023-12-15 170955](https://github.com/Devil-2621/lab-express-basic/assets/119029321/820efabc-2f88-45fd-9845-254f4c23f3e1)
+<hr>
+
+![Screenshot 2023-12-15 171008](https://github.com/Devil-2621/lab-express-basic/assets/119029321/44c30ff3-eccf-4e73-bdf2-64aca003f07d)
+<hr>
+
+![Screenshot 2023-12-15 170940](https://github.com/Devil-2621/lab-express-basic/assets/119029321/ddf2840e-1b96-4b01-ad04-a3171a78065c)
+<hr>
+
+![Screenshot 2023-12-15 171053](https://github.com/Devil-2621/lab-express-basic/assets/119029321/700fb335-161d-4500-9571-9a66075b14d5)
+
 
 # Express basic website
 
