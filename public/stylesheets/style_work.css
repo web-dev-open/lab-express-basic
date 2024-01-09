@@ -1,0 +1,60 @@
+/* styles_works.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+header a {
+    font-size: 1.4rem;
+    color: rgb(39, 208, 230);
+    text-transform: capitalize;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+main h2 {
+    text-align: center;
+    margin: 20px;
+    font-size: 2rem;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#works {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.work-item > img{
+    max-width: 300px;
+    margin: 0 auto;
+}
