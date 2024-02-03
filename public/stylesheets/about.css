@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+
+    height: 100%;
+}
+
+.container {
+    margin: 0px;
+}
+
+.heading-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 100%;
+    height: 800px;
+
+    margin-top: 0px;
+
+    background-image: url(../images/TS_Eras_Tour_pink_gown_full.webp);
+    background-size: cover;
+}
+
+h2{
+    margin: 30px;
+    margin-bottom: 0px;
+    padding: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+}
+
+.links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 10px;
+    margin-left: 30px;
+
+    padding-bottom: 120px;
+}
+
+.link {
+    margin: 10px;
+
+    color: white;
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(31, 7, 82);
+    font-weight: bold;
+}
+
+.content-container {
+    margin: 10px;
+    margin-top: 0px;
+    padding: 10px;
+    padding-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-size: 30px;
+    color: crimson;
+    margin: 10px 0px;
+}
+
+p {
+    font-size: 15px;
+}
+
+footer {
+    margin: 10px;
+}
