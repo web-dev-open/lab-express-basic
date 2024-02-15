@@ -180,6 +180,8 @@ body {
     width:0;
   }
 }
+
+/* about section and gallery */
 .about {
   height: 100vh;
   background: url('/images/robertrdj.jpg') no-repeat;
@@ -193,6 +195,7 @@ body {
 .gallery{
   padding: 20px;
   background: #081b29;
+  background-size: cover;
 
 }
 .gallery table{
@@ -202,6 +205,7 @@ body {
 
 .gallery td{
   padding:10px;
+  vertical-align: bottom;
 }
 .gallery img{
   max-width: 100%;
