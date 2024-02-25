@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/alan-walker-drone.jpg'); /* Set the background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+header {
+    padding: 60px;
+    text-align: center;
+    background-color: rgb(19, 30, 31);
+   
+    background-image: url('./public/alanwalkerlogo.png'); /* Add a semi-transparent black background for better readability */
+}
+
+
+
+
+
+main {
+    padding: 20px;
+    
+    text-align: center;
+    
+    
+}
+
+main p{
+    color: #020318;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: rgb(55, 61, 61);
+    display:flex;
+    border-radius: 5px;
+
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    border: 1px solid transparent;
+    display:flex;
+    
+}
+li{
+    float:left;
+    
+    
+}
+
+
+li a{
+    text-decoration: none;
+    padding: 14px 16px;
+    display:block;
+    color:azure;
+
+    
+}
+
+li a.Active{
+    color:rgb(239, 86, 16);
+    background-color:rgb(8, 40, 21);
+    
+}
+
+li a:hover:not(.Active) {
+    background-color: #56615f;
+  }
+  
