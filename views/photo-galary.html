@@ -1,0 +1,57 @@
+<!-- views/photo-gallery.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        nav a {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>Photo Gallery</h1>
+        <div class="gallery">
+            <img src="../images/aka-7.jpg" alt="Photo 1">
+            <img src="../images/aka-2.png" alt="Photo 2">
+            <img src="../images/aka-3.png" alt="Photo 3">
+            <img src="../images/aka-5.jpg" alt="Photo 3">
+            <img src="../images/aka-1.jpg" alt="Photo 1">
+            <img src="../images/aka-4.jpg" alt="Photo 2">
+            <img src="../images/aka-6.jpg" alt="Photo 3">
+        </div>
+    </section>
+    <nav>
+        <a href="/home">Back to Home</a>
+        <a href="/about">About</a>
+        <a href="/photo-galary">Photo Gallery</a>
+    </nav>
+</body>
+
+</html>

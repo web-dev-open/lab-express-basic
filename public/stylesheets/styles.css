@@ -1,0 +1,68 @@
+body {
+    background-image: url('../images/aka-4.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    color: rgb(206, 135, 2);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+nav a {
+    font-size: 1.5em;
+    font-weight: bold;
+    align-items: center;
+    background-color: rgb(244, 171, 3);
+    color: antiquewhite;
+    text-decoration: none;
+    margin: 12px;
+    padding: 8px 14px;
+    border: 1px solid rgb(163, 78, 3);
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: rgba(48, 29, 1, 0.656);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
