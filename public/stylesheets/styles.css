@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: honeydew;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkslategrey;
+    color: white;
+    height: 5rem;
+    margin-bottom: 1rem;
+    width: 100vw;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+}
+
+.brand {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.home-desc {
+    font-size: 1.5rem;
+    width: 700px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    width: 100%;
+}
+
+.about-desc {
+    width: 700px;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.works-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.work-item {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin-top: 2rem;
+    gap: 1rem;
+    text-align: left;
+}
+
+.work-item img {
+    width: 350px;
+    height: 300px;
+}
+
+.gallery-grid {
+    margin-top: 2rem
+}
+
+.gallery-grid img {
+    width: 350px;
+    height: 300px;
+    margin-bottom: 10px;
+    /* Space between images vertically */
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.gallery-grid img:hover {
+    transform: scale(1.05);
+    /* Slight zoom effect on hover */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+    .gallery-grid {
+        column-count: 3;
+        /* Reduce columns on smaller screens */
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "lab-express-basic",
+  "version": "1.0.0",
+  "description": "<img src=\"https://imgur.com/XOS1Vdh.png\"  width=\"150px\" height=\"150px\">",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hadiquaa/lab-express-basic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hadiquaa/lab-express-basic/issues"
+  },
+  "homepage": "https://github.com/Hadiquaa/lab-express-basic#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
